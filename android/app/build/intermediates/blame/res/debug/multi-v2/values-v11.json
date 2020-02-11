@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/myzealit/Desktop/kausar/testApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/res/values-v11/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "170",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "291"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "176"
+                    }
+                }
+            ]
+        }
+    ]
+}

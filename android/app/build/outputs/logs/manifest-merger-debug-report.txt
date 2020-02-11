@@ -1,0 +1,733 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/18ea821cf495a721c6c760cd2713b36d/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-vector-icons] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:@react-native-community_masked-view] /Users/myzealit/Desktop/kausar/testApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:react-native-gesture-handler] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/27acc52076bfc7912220ba09090dbc90/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/77b5f5bc4580455353053fa9a1f5fbb4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a5b11ae2e7816024344c027563f19a1c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d996c111f7cb3df7b89eb10a958397f9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f255addba969a304a8ab7c766eb27e3d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b103908705ae918fc4494474dbb202fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/390c409db46d87abc75958b1c2e087cc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7452e7e253ab8bb3aebbf9ab7222c205/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-invites:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1c5543ac87fa712e91d7e63b7cdba725/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/309edaf7a6dca654e0e6c5702402d4ec/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/59bc4c8949d8492933ac3df0c4049af6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6b1113b4ead6f0b95fc3baee885de6fc/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c29940356a7d1554723a0f0b0b74e73/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:17:1-29:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fb36b3565fb188fb59cecb55f51ed17d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ae3b6e5f0a2d84ea5c581b89df32bb02/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67e0cd96c27025798f13d1a682227b0f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d1288842f2d1e42a52b8d86bc968a1eb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a024070e18cbe7d325127cff9094597f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f2ba375b1513badea79d530692f3ed30/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0a1f277eb5847605e8ad51f530f16bd8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d6258159c65a638d4a2ccc92b8402872/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/58001faf919bc6f2b3ce9fc11c8d9d8a/AndroidManifest.xml:2:1-13:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2f39568a459cab9e223cd5f2a7828570/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fea763618cfb3fca986b5ee1c9e33706/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ee3d9b3c73c81107b438156e4e963599/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e4f10ded79d2be94d0250d757f35b1c2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/33714070bd65f9d0bf86c34b6e106bed/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cca81fd8a99b191d7e77f40625a65d8f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/16c9744d55aedf1acbd5104cc244c4a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/484b084e7609bd4e4bdbdfa76cf30776/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ef1b3dfa0e6b454077b0b75c8bac2968/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0d06370dac4e0e7e0971697a4576d753/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/959f6cd6b83a2db4e1d3725ab450333c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba41e946eb9619580a2a46be664a9327/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2fdb07273ff7b3a98617cd1bdc0d2797/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3f6de8a8b9b32d21ca6718a464c26f62/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a4b56244f8bafdd0a07cfc5b75599e06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/20401741f7b3b408c0144784fd6f2996/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2e88d6459b748a11c41506618bd06956/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e40d349d1deeec47c35b430e11f0ea67/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ecb1daefa265b61158cfa5804bf6195c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c6f435e2c096144fbafe3329b3616719/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0cd95d1304fbd1ccd5ad0191c56cc7bb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/95863c30f10c8aa103889857e7f27339/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/9b6209bd8f0ea3efa5fb1fd1b49b9fdf/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/88e778845fb9f769f59796a0b5ca1a0b/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d7fa8160a1b3113cadd84c2fb330b9d1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a5f56ca430920e6d8ae35bddb8ce2998/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/72968036cbe0c84f8ee9d459b1b0c7d7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ad0790fe3821e6833a8e50ab9909a732/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6977aaeaef6854b3dec28ecabab515c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cd9bd01e28ddde4d0f06557303277556/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/452476b7e1755e807181c4b09e60a2e2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/dfc449a4e622b6dbd6273ecfaa635584/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f2d429eb188f2a718f412cebc84ff4ff/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/30c13ebd3f93a4f4745850130e24cd7c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6e086ea16b636091f6ce2da18fb6f233/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7cdb18aef6f913e148d0e468523ed928/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0e8ef8f0758da7572be8f3f7f2a99517/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a870cd142fe086ffd870d29f5ae30c05/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/5020a692b4b1de02780c500f9fe1de5c/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:2:3-24
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:2:3-24
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:8:5-45:19
+MERGED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:8:5-45:19
+MERGED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:8:5-45:19
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/27acc52076bfc7912220ba09090dbc90/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/27acc52076bfc7912220ba09090dbc90/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/77b5f5bc4580455353053fa9a1f5fbb4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/77b5f5bc4580455353053fa9a1f5fbb4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7452e7e253ab8bb3aebbf9ab7222c205/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7452e7e253ab8bb3aebbf9ab7222c205/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-invites:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1c5543ac87fa712e91d7e63b7cdba725/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-invites:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1c5543ac87fa712e91d7e63b7cdba725/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/309edaf7a6dca654e0e6c5702402d4ec/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/309edaf7a6dca654e0e6c5702402d4ec/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6b1113b4ead6f0b95fc3baee885de6fc/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6b1113b4ead6f0b95fc3baee885de6fc/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c29940356a7d1554723a0f0b0b74e73/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c29940356a7d1554723a0f0b0b74e73/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/58001faf919bc6f2b3ce9fc11c8d9d8a/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/58001faf919bc6f2b3ce9fc11c8d9d8a/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/484b084e7609bd4e4bdbdfa76cf30776/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/484b084e7609bd4e4bdbdfa76cf30776/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ef1b3dfa0e6b454077b0b75c8bac2968/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ef1b3dfa0e6b454077b0b75c8bac2968/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/959f6cd6b83a2db4e1d3725ab450333c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/959f6cd6b83a2db4e1d3725ab450333c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba41e946eb9619580a2a46be664a9327/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba41e946eb9619580a2a46be664a9327/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2fdb07273ff7b3a98617cd1bdc0d2797/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2fdb07273ff7b3a98617cd1bdc0d2797/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3f6de8a8b9b32d21ca6718a464c26f62/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3f6de8a8b9b32d21ca6718a464c26f62/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/88e778845fb9f769f59796a0b5ca1a0b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/88e778845fb9f769f59796a0b5ca1a0b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cd9bd01e28ddde4d0f06557303277556/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cd9bd01e28ddde4d0f06557303277556/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/88e778845fb9f769f59796a0b5ca1a0b/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:10:7-39
+	tools:ignore
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:12:7-52
+	tools:targetApi
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:9:7-38
+activity#com.testapp.MainActivity
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:15:7-33:18
+	android:label
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:18:9-41
+	android:launchMode
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:19:9-79
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+action#android.intent.action.MAIN
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:22:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:23:23-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:mytestappurl.com+data:host:mytestappurl.com+data:scheme:http+data:scheme:https
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:26:9-32:25
+action#android.intent.action.VIEW
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:27:11-62
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:27:19-60
+category#android.intent.category.DEFAULT
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:28:11-69
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:28:21-67
+category#android.intent.category.BROWSABLE
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:29:11-71
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:29:21-69
+data
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:30:11-72
+	android:host
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:30:17-48
+	android:scheme
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:30:49-70
+service#io.invertase.firebase.messaging.RNFirebaseMessagingService
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:35:7-39:17
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:35:16-89
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:36:9-38:25
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:37:11-72
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:37:19-69
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:44:7-84
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml:44:17-81
+uses-sdk
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/18ea821cf495a721c6c760cd2713b36d/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/18ea821cf495a721c6c760cd2713b36d/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_masked-view] /Users/myzealit/Desktop/kausar/testApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_masked-view] /Users/myzealit/Desktop/kausar/testApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/27acc52076bfc7912220ba09090dbc90/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/27acc52076bfc7912220ba09090dbc90/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/77b5f5bc4580455353053fa9a1f5fbb4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/77b5f5bc4580455353053fa9a1f5fbb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a5b11ae2e7816024344c027563f19a1c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a5b11ae2e7816024344c027563f19a1c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d996c111f7cb3df7b89eb10a958397f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d996c111f7cb3df7b89eb10a958397f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f255addba969a304a8ab7c766eb27e3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f255addba969a304a8ab7c766eb27e3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b103908705ae918fc4494474dbb202fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b103908705ae918fc4494474dbb202fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/390c409db46d87abc75958b1c2e087cc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/390c409db46d87abc75958b1c2e087cc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7452e7e253ab8bb3aebbf9ab7222c205/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7452e7e253ab8bb3aebbf9ab7222c205/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-invites:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1c5543ac87fa712e91d7e63b7cdba725/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-invites:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1c5543ac87fa712e91d7e63b7cdba725/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/309edaf7a6dca654e0e6c5702402d4ec/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/309edaf7a6dca654e0e6c5702402d4ec/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/59bc4c8949d8492933ac3df0c4049af6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/59bc4c8949d8492933ac3df0c4049af6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6b1113b4ead6f0b95fc3baee885de6fc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6b1113b4ead6f0b95fc3baee885de6fc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c29940356a7d1554723a0f0b0b74e73/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c29940356a7d1554723a0f0b0b74e73/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fb36b3565fb188fb59cecb55f51ed17d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fb36b3565fb188fb59cecb55f51ed17d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ae3b6e5f0a2d84ea5c581b89df32bb02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ae3b6e5f0a2d84ea5c581b89df32bb02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67e0cd96c27025798f13d1a682227b0f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67e0cd96c27025798f13d1a682227b0f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d1288842f2d1e42a52b8d86bc968a1eb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d1288842f2d1e42a52b8d86bc968a1eb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a024070e18cbe7d325127cff9094597f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a024070e18cbe7d325127cff9094597f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f2ba375b1513badea79d530692f3ed30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f2ba375b1513badea79d530692f3ed30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0a1f277eb5847605e8ad51f530f16bd8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0a1f277eb5847605e8ad51f530f16bd8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d6258159c65a638d4a2ccc92b8402872/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d6258159c65a638d4a2ccc92b8402872/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/58001faf919bc6f2b3ce9fc11c8d9d8a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/58001faf919bc6f2b3ce9fc11c8d9d8a/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2f39568a459cab9e223cd5f2a7828570/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2f39568a459cab9e223cd5f2a7828570/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fea763618cfb3fca986b5ee1c9e33706/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fea763618cfb3fca986b5ee1c9e33706/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ee3d9b3c73c81107b438156e4e963599/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ee3d9b3c73c81107b438156e4e963599/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e4f10ded79d2be94d0250d757f35b1c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e4f10ded79d2be94d0250d757f35b1c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/33714070bd65f9d0bf86c34b6e106bed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/33714070bd65f9d0bf86c34b6e106bed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cca81fd8a99b191d7e77f40625a65d8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cca81fd8a99b191d7e77f40625a65d8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/16c9744d55aedf1acbd5104cc244c4a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/16c9744d55aedf1acbd5104cc244c4a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/484b084e7609bd4e4bdbdfa76cf30776/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/484b084e7609bd4e4bdbdfa76cf30776/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ef1b3dfa0e6b454077b0b75c8bac2968/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ef1b3dfa0e6b454077b0b75c8bac2968/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0d06370dac4e0e7e0971697a4576d753/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0d06370dac4e0e7e0971697a4576d753/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/959f6cd6b83a2db4e1d3725ab450333c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/959f6cd6b83a2db4e1d3725ab450333c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba41e946eb9619580a2a46be664a9327/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba41e946eb9619580a2a46be664a9327/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2fdb07273ff7b3a98617cd1bdc0d2797/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2fdb07273ff7b3a98617cd1bdc0d2797/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3f6de8a8b9b32d21ca6718a464c26f62/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3f6de8a8b9b32d21ca6718a464c26f62/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a4b56244f8bafdd0a07cfc5b75599e06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a4b56244f8bafdd0a07cfc5b75599e06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/20401741f7b3b408c0144784fd6f2996/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/20401741f7b3b408c0144784fd6f2996/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2e88d6459b748a11c41506618bd06956/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2e88d6459b748a11c41506618bd06956/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e40d349d1deeec47c35b430e11f0ea67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e40d349d1deeec47c35b430e11f0ea67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ecb1daefa265b61158cfa5804bf6195c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ecb1daefa265b61158cfa5804bf6195c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c6f435e2c096144fbafe3329b3616719/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c6f435e2c096144fbafe3329b3616719/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0cd95d1304fbd1ccd5ad0191c56cc7bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0cd95d1304fbd1ccd5ad0191c56cc7bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/95863c30f10c8aa103889857e7f27339/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/95863c30f10c8aa103889857e7f27339/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/9b6209bd8f0ea3efa5fb1fd1b49b9fdf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/9b6209bd8f0ea3efa5fb1fd1b49b9fdf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/88e778845fb9f769f59796a0b5ca1a0b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/88e778845fb9f769f59796a0b5ca1a0b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d7fa8160a1b3113cadd84c2fb330b9d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/d7fa8160a1b3113cadd84c2fb330b9d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a5f56ca430920e6d8ae35bddb8ce2998/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a5f56ca430920e6d8ae35bddb8ce2998/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/72968036cbe0c84f8ee9d459b1b0c7d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/72968036cbe0c84f8ee9d459b1b0c7d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ad0790fe3821e6833a8e50ab9909a732/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ad0790fe3821e6833a8e50ab9909a732/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6977aaeaef6854b3dec28ecabab515c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6977aaeaef6854b3dec28ecabab515c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cd9bd01e28ddde4d0f06557303277556/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/cd9bd01e28ddde4d0f06557303277556/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/452476b7e1755e807181c4b09e60a2e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/452476b7e1755e807181c4b09e60a2e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/dfc449a4e622b6dbd6273ecfaa635584/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/dfc449a4e622b6dbd6273ecfaa635584/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f2d429eb188f2a718f412cebc84ff4ff/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/f2d429eb188f2a718f412cebc84ff4ff/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/30c13ebd3f93a4f4745850130e24cd7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/30c13ebd3f93a4f4745850130e24cd7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6e086ea16b636091f6ce2da18fb6f233/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/6e086ea16b636091f6ce2da18fb6f233/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7cdb18aef6f913e148d0e468523ed928/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/7cdb18aef6f913e148d0e468523ed928/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0e8ef8f0758da7572be8f3f7f2a99517/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/0e8ef8f0758da7572be8f3f7f2a99517/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a870cd142fe086ffd870d29f5ae30c05/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/a870cd142fe086ffd870d29f5ae30c05/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/5020a692b4b1de02780c500f9fe1de5c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/5020a692b4b1de02780c500f9fe1de5c/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/myzealit/Desktop/kausar/testApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2f39568a459cab9e223cd5f2a7828570/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/2f39568a459cab9e223cd5f2a7828570/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/67cf85f418e697f690a063baf1e49e7d/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-19:20
+	android:enabled
+		ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:react-native-device-info] /Users/myzealit/Desktop/kausar/testApp/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-76
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:26:13-76
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:29:13-33:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:30:17-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/980c598598ecf84e7436952876f58ba4/AndroidManifest.xml:30:25-87
+meta-data#com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar
+ADDED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/1a6c0a7a57c7be8b1c42904172aec96f/AndroidManifest.xml:10:17-133
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ce4feb3c0a87abb933de4cc78e5fa898/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/91380fbaebee8b4d2b55439b2e8ba0c2/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e89f7284fcb661f79587de61008dd17b/AndroidManifest.xml:19:17-111
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/e57eb7c36fb401c0a5cb4ebd2e17c62b/AndroidManifest.xml:23:22-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3ea3d393b8a6f1fbb02dbe569bd3a0b4/AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ba59b591971aeaa3c9c062b4c2faae2d/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/662d67d32e3b280da71f11c1d5480c58/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/3c48ffa63c5c697af45225e57eeb7f5c/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/b80f09cbbaa5c50633d6c390410e9614/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:35:13-100
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/c1ba837702838289bce4b6852b21cb9b/AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/fe23a28ffe37ed17e89d89089542c584/AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/myzealit/.gradle/caches/transforms-2/files-2.1/ec8c1052bf4984ab630d90e42db9dad5/AndroidManifest.xml:24:13-58
